@@ -13,4 +13,15 @@ router.get("/", async (req, res) => {
   }
 });
 
+router.get("/:id", async (req, res, next) => {
+  try {
+    const destinationId = parseInt(req.params.id);
+    const destinationById = await Destination.findByPk(destinationId);
+
+    res.send(destinationById);
+  } catch (err) {
+    next(err);
+  }
+});
+
 module.exports = router;

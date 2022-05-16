@@ -13,4 +13,15 @@ router.get("/", async (req, res) => {
   }
 });
 
+router.get("/:id", async (req, res, next) => {
+  try {
+    const technologyId = parseInt(req.params.id);
+    const technologyById = await Technology.findByPk(technologyId);
+
+    res.send(technologyById);
+  } catch (err) {
+    next(err);
+  }
+});
+
 module.exports = router;
