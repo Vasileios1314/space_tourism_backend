@@ -11,12 +11,6 @@ module.exports = {
       name: {
         type: Sequelize.STRING,
       },
-      imagesPng: {
-        type: Sequelize.STRING,
-      },
-      imagesWebp: {
-        type: Sequelize.STRING,
-      },
       description: {
         type: Sequelize.STRING,
       },

@@ -14,8 +14,6 @@ module.exports = (sequelize, DataTypes) => {
   crew.init(
     {
       name: DataTypes.STRING,
-      imagesPng: DataTypes.STRING,
-      imagesWebp: DataTypes.STRING,
       role: DataTypes.STRING,
       bio: DataTypes.STRING,
     },

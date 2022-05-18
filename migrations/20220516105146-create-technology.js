@@ -11,12 +11,6 @@ module.exports = {
       name: {
         type: Sequelize.STRING,
       },
-      imagesPortrait: {
-        type: Sequelize.STRING,
-      },
-      imagesLandscape: {
-        type: Sequelize.STRING,
-      },
       description: {
         type: Sequelize.TEXT,
       },

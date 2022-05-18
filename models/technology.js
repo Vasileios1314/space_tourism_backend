@@ -14,8 +14,6 @@ module.exports = (sequelize, DataTypes) => {
   technology.init(
     {
       name: DataTypes.STRING,
-      imagesPortrait: DataTypes.STRING,
-      imagesLandscape: DataTypes.STRING,
       description: DataTypes.TEXT,
     },
     {

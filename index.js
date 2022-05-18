@@ -7,7 +7,7 @@ const app = express();
 const PORT = 4000;
 app.use(express.json());
 
-app.use("/destinations", destinationsRouter);
+app.use("/destination", destinationsRouter);
 app.use("/crew", crewRouter);
 app.use("/technology", technologyRouter);
 
