@@ -14,6 +14,7 @@ module.exports = (sequelize, DataTypes) => {
   destination.init(
     {
       name: DataTypes.STRING,
+      imgUrl: DataTypes.STRING,
       description: DataTypes.STRING,
       distance: DataTypes.STRING,
       travel: DataTypes.STRING,
