@@ -31,7 +31,7 @@ module.exports = {
         {
           name: "Europa",
           imgUrl:
-            "https://img1.pnghut.com/11/12/25/gu6PdMBDAG/astrobiology-galilean-moons-sphere-europa-planetary-habitability.jpg",
+            "https://upload.wikimedia.org/wikipedia/commons/e/e4/Europa-moon-with-margins.jpg",
 
           description:
             "The smallest of the four Galilean moons orbiting Jupiter, Europa is a winter lover’s dream. With an icy surface, it’s perfect for a bit of ice skating, curling, hockey, or simple relaxation in your snug wintery cabin.",
@@ -43,7 +43,7 @@ module.exports = {
         {
           name: "Titan",
           imgUrl:
-            "https://p1.hiclipart.com/preview/888/522/323/png-planets-of-star-wars-kashyyyk-icon-png-icon.jpg",
+            "https://media.npr.org/assets/img/2017/10/16/titan-41d62a75c7b7376fe8ff872bb1deec3bc24a4a14.jpeg",
 
           description:
             "The only moon known to have a dense atmosphere other than Earth, Titan is a home away from home (just a few hundred degrees colder!). As a bonus, you get striking views of the Rings of Saturn.",
